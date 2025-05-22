@@ -1,5 +1,5 @@
 
-import { ArrowRight, Download, Github, Linkedin } from "lucide-react";
+import { ArrowRight, ArrowDown, Download, Github, Linkedin } from "lucide-react";
 import { Button } from "./ui/button";
 
 const HeroSection = () => {
@@ -76,6 +76,15 @@ const HeroSection = () => {
       <div className="absolute bottom-1/3 left-1/4 w-8 h-8 rounded-full bg-primary/10"></div>
       <div className="absolute bottom-40 left-20 w-16 h-2 bg-primary/20 rounded-full rotate-45"></div>
       <div className="absolute top-40 right-20 w-10 h-10 border border-accent/30 rotate-12"></div>
+      {/* Scroll indicator */}
+      <div className="hidden md:block absolute bottom-8 left-1/2 transform -translate-x-1/2">
+        <div className="relative">
+          <div className="absolute inset-0 rounded-full bg-green-500/20 blur-lg" />
+          <div className="relative rounded-full bg-green-500/30 p-2">
+            <ArrowDown className="h-6 w-6 text-green-500 animate-bounce-slow" />
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

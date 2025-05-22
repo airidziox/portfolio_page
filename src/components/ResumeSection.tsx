@@ -16,24 +16,25 @@ const ResumeSection = () => {
 
   const education = [
     {
+      title: "Junior Front-End TypeScript Developer",
+      institution: "CodeAcademy",
+      period: "2024 - 2025",
+      description: "Intensive training in modern front-end development with TypeScript and React.",
+      current: false,
+    },
+    {
       title: "Professional Bachelor in Multimedia Technology",
       institution: "Kauno Kolegija",
       period: "2020 – 2023",
       description: "Focused on web development, UI/UX design, and multimedia content creation.",
       current: false,
     },
-    {
-      title: "Junior Front-End TypeScript Developer",
-      institution: "CodeAcademy",
-      period: "2022",
-      description: "Intensive training in modern front-end development with TypeScript and React.",
-      current: false,
-    },
+  
   ];
 
   const skills = [
     "React", "TypeScript", "Node.js", "MongoDB", 
-    "Express", "Git", "Figma", "WordPress",
+    "Express.js", "Git", "Figma", "WordPress",
     "UI/UX Design", "Responsive Design"
   ];
 
@@ -121,7 +122,7 @@ const ResumeSection = () => {
                   <HoverCard key={index}>
                     <HoverCardTrigger asChild>
                       <span 
-                        className="bg-secondary px-4 py-2 rounded-full text-sm transition-all duration-300 hover:bg-primary/20 hover:text-white cursor-pointer"
+                        className="bg-secondary px-4 py-2 rounded-full text-sm transition-all duration-300 hover:bg-primary/20"
                       >
                         {skill}
                       </span>
