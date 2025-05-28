@@ -25,14 +25,14 @@ const ContactSection = () => {
           <div>
             <h3 className="text-2xl font-bold text-primary mb-8">Contact Channels</h3>
             <div className="space-y-6">
-              <a href="mailto:airidas.augulis@gmail.com" className="flex items-center gap-4 p-5 bg-secondary/40 rounded-lg hover:bg-secondary/60 transition-all dark:text-white light:text-gray-800 hover:shadow-lg hover:shadow-primary/10">
+              <a href="mailto:airidas.augulis@gmail.com" className="flex items-center gap-4 p-5 bg-secondary/40 rounded-lg hover:bg-primary/20 transition-all dark:text-white light:text-gray-800">
                 <div className="text-primary">
                   <Mail className="h-6 w-6" />
                 </div>
                 <span>airidas.augulis@gmail.com</span>
               </a>
               
-              <a href="tel:+37062400759" className="flex items-center gap-4 p-5 bg-secondary/40 rounded-lg hover:bg-secondary/60 transition-all dark:text-white light:text-gray-800 hover:shadow-lg hover:shadow-primary/10">
+              <a href="tel:+37062400759" className="flex items-center gap-4 p-5 bg-secondary/40 rounded-lg hover:bg-primary/20 transition-all dark:text-white light:text-gray-800">
                 <div className="text-primary">
                   <Phone className="h-6 w-6" />
                 </div>
@@ -43,7 +43,7 @@ const ContactSection = () => {
                 href="https://linkedin.com/in/airidas-augulis" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex items-center gap-4 p-5 bg-secondary/40 rounded-lg hover:bg-secondary/60 transition-all dark:text-white light:text-gray-800 hover:shadow-lg hover:shadow-primary/10"
+                className="flex items-center gap-4 p-5 bg-secondary/40 rounded-lg hover:bg-primary/20 transition-all dark:text-white light:text-gray-800"
               >
                 <div className="text-primary">
                   <Linkedin className="h-6 w-6" />
@@ -55,7 +55,7 @@ const ContactSection = () => {
                 href="https://github.com/airidziox" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex items-center gap-4 p-5 bg-secondary/40 rounded-lg hover:bg-secondary/60 transition-all dark:text-white light:text-gray-800 hover:shadow-lg hover:shadow-primary/10"
+                className="flex items-center gap-4 p-5 bg-secondary/40 rounded-lg hover:bg-primary/20 transition-all dark:text-white light:text-gray-800"
               >
                 <div className="text-primary">
                   <Github className="h-6 w-6" />

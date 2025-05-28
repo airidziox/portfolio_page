@@ -34,11 +34,11 @@ const HeroSection = () => {
             <div className="pt-6">
               <p className="text-sm text-gray-500 mb-4">Find me on</p>
               <div className="flex gap-4">
-                <a href="https://github.com/airidziox" target="_blank" rel="noopener noreferrer" className="social-button">
-                  <Github className="h-5 w-5" />
+                <a href="https://github.com/airidziox" target="_blank" rel="noopener noreferrer" className="social-button hover:bg-primary/20">
+                  <Github className="h-5 w-5 " />
                   <span className="text-sm">GitHub</span>
                 </a>
-                <a href="https://linkedin.com/in/airidas-augulis" target="_blank" rel="noopener noreferrer" className="social-button">
+                <a href="https://linkedin.com/in/airidas-augulis" target="_blank" rel="noopener noreferrer" className="social-button hover:bg-primary/20">
                   <Linkedin className="h-5 w-5" />
                   <span className="text-sm">LinkedIn</span>
                 </a>
