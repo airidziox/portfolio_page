@@ -11,12 +11,12 @@ const ServicesSection = () => {
     },
     {
       title: "Back-End Development",
-      description: "Robust server-side applications with Node.js, Express, and secure database integrations.",
+      description: "Robust server-side applications with Node.js, Express.js, and secure database integrations.",
       icon: <Code className="h-12 w-12 text-primary" />,
     },
     {
       title: "Database Design",
-      description: "Efficient data structures and relationships using MongoDB, PostgreSQL and other solutions.",
+      description: "Efficient data structures and relationships using MongoDB and other solutions.",
       icon: <Database className="h-12 w-12 text-primary" />,
     },
   ];
@@ -34,7 +34,7 @@ const ServicesSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="service-card border-gray-800 bg-secondary/30 overflow-hidden">
+            <Card key={index} className="service-card border-gray-800/50 bg-secondary/30 overflow-hidden">
               <CardHeader>
                 <div className="mb-4">{service.icon}</div>
                 <CardTitle className="text-xl font-bold">{service.title}</CardTitle>

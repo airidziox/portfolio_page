@@ -7,19 +7,19 @@ const PortfolioSection = () => {
     {
       title: "Valorant-Account.com",
       description: "E-commerce gaming site built with WordPress, complete with custom design and functionality.",
-      image: "/placeholder.svg",
+      image: "/public/valorant-account.png",
       tags: ["WordPress", "E-commerce", "UI Design"],
     },
     {
       title: "Figma UI Prototyping",
       description: "Interactive prototypes and comprehensive design systems for web applications.",
-      image: "/placeholder.svg",
+      image: "/public/figmaui.png",
       tags: ["Figma", "UI/UX", "Prototyping"],
     },
     {
       title: "Logo & Asset Design",
       description: "Brand identity design including logos, promotional assets, and visual guidelines.",
-      image: "/placeholder.svg",
+      image: "/public/banners.png",
       tags: ["Branding", "Graphics", "Design"],
     },
   ];
@@ -37,18 +37,13 @@ const PortfolioSection = () => {
           <div className="mt-6 md:mt-0">
             <div className="flex flex-wrap gap-3 px-4 py-3 bg-secondary rounded-xl">
               <div className="text-center">
-                <p className="text-2xl font-bold text-primary">400+</p>
+                <p className="text-2xl font-bold text-primary">10+</p>
                 <p className="text-xs text-gray-400">Projects Completed</p>
               </div>
               <div className="w-px bg-gray-700 mx-2"></div>
               <div className="text-center">
-                <p className="text-2xl font-bold text-primary">50+</p>
+                <p className="text-2xl font-bold text-primary">20+</p>
                 <p className="text-xs text-gray-400">Happy Clients</p>
-              </div>
-              <div className="w-px bg-gray-700 mx-2"></div>
-              <div className="text-center">
-                <p className="text-2xl font-bold text-primary">17+</p>
-                <p className="text-xs text-gray-400">Awards Won</p>
               </div>
             </div>
           </div>
@@ -56,7 +51,7 @@ const PortfolioSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="border-gray-800 bg-secondary/30 overflow-hidden card-hover">
+            <Card key={index} className="border-gray-800/50 bg-secondary/30 overflow-hidden card-hover">
               <div className="h-48 w-full overflow-hidden">
                 <img 
                   src={project.image} 

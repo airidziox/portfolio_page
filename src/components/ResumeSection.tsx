@@ -34,8 +34,9 @@ const ResumeSection = () => {
 
   const skills = [
     "React", "TypeScript", "Node.js", "MongoDB", 
-    "Express.js", "Git", "Figma", "WordPress",
-    "UI/UX Design", "Responsive Design"
+    "Express.js", "JavaScript", "HTML & CSS",
+    "Git", "Figma", "WordPress", "UI/UX Design",
+    "Responsive Design"
   ];
 
   return (
